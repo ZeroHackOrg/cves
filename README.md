@@ -171,7 +171,7 @@ ZeroHack intelligence is built **with the community, for the community.** Found 
 - 🔍 **Spot a gap?** Open an [issue](https://github.com/ZeroHackOrg/cves/issues/new/choose) with the CVE ID — use the `cve-correction` or `new-intel` template.
 - 🤝 **Know something we don't?** Send a pull request editing the CVE JSON directly.
 - ✅ **Want visibility?** Accepted corrections are credited and flow back into the ZeroHack pipeline (and the next sync).
-- 📣 **Discuss** — join ZeroHack on [Discord](https://zerohack.org) · [X](https://x.com) · [LinkedIn](https://www.linkedin.com) and suggest new data sources.
+- 📣 **Discuss & connect** — build in public with ZeroHack: open source hubs on [zerohack.org](https://zerohack.org), and suggest new data sources via issues in this repo.
 
 [![Good first issue](https://img.shields.io/badge/Contribute-Good_First_Issues-22c55e?style=for-the-badge)](https://github.com/ZeroHackOrg/cves/issues)
 [![Code of conduct](https://img.shields.io/badge/Code_of_Conduct-Read_More-334155?style=for-the-badge)](docs/CONTRIBUTING.md)
