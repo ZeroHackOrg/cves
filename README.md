@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🛡️ ZeroHack CVE Intelligence
+# 🛡️💝 ZeroHack CVE Intelligence
+
+**Built with ❤️ by ZeroHack for a safer tomorrow 🛡️**
 
 **Production-grade, AI-enriched vulnerability intelligence — engine-ready JSON for SOCs, SIEMs, threat hunters and security automation.**
 
@@ -12,19 +14,30 @@ Open data from the [ZeroHack](https://zerohack.org) CVE pipeline: **10+ independ
 [![Fields](https://img.shields.io/badge/schema-80%2B_fields-7C3AED?style=for-the-badge)](docs/SCHEMA.md)
 [![Sync](https://img.shields.io/badge/sync-weekly-0d1117?style=for-the-badge)]()
 [![Community](https://img.shields.io/badge/PRs-welcome-22c55e?style=for-the-badge)](docs/CONTRIBUTING.md)
+[![Made with love](https://img.shields.io/badge/Made_with-❤️-red?style=for-the-badge)]()
+[![Always free](https://img.shields.io/badge/data-free_forever-16a34a?style=for-the-badge)]()
 
 </div>
 
 ---
 
+## 🌅 Our mission — building a safe tomorrow
+
+The internet shouldn't be a place where the good guys lose by running slower than the bad guys. 🌍
+
+Every morning, threat actors wake up and weaponize yesterday's CVE — a patch is already out, so why don't teams know? Because **intelligence is fragmented, buried, and late.** ZeroHack exists to change that. We fuse every authoritative source into **one clean, enriched record**, and we give it away **free, forever, in the open** — so the people defending the world are never one search away from "ahh, another day of guessing."
+
+> 🫡 **The goal is simple:** when this goes live, *you* and *your team* spend zero hours stitching intel together — and every scanner, SIEM and analyst starting their day already knows what to fix first. That is how we build a safe tomorrow, one CVE at a time. 💛
+
 ## 🎯 What this repository is
 
 Every day, security teams lose time stitching together NVD, CISA, EPSS, exploit feeds and threat intel by hand. ZeroHack does that stitching for you and publishes the result **here, in the open**:
 
-- **One JSON file per CVE** with the full **80+ field schema** — scoring, affected software, exploit status, detection rules, IOCs, MITRE mapping, remediation.
+- **One JSON file per CVE** with the full **80+ field schema** — scoring, affected software, exploit status, detection rules, IOCs, MITRE mapping, remediation, and more.
 - **Deduplicated & merged** — each source owns its fields; empties never clobber real data (non-destructive merge contract).
 - **AI-enriched** — LLMs (Groq / Gemini) generate executive summaries, YARA / Sigma / Suricata rules, workarounds and solutions, so the record goes beyond a raw feed.
 - **Always fresh** — auto-synced weekly; `updatedAt` reflects the last pipeline write.
+- **Community-powered** — corrections flow back into the pipeline; the dataset gets better the more it's used.
 
 ```
                     CORE FEEDS                EXPLOIT & POC               IOC & THREAT INTEL
@@ -59,7 +72,7 @@ Every day, security teams lose time stitching together NVD, CISA, EPSS, exploit 
 
 ## 🤝 Trusted data sources & partners
 
-ZeroHack aggregates from **10 independent, authoritative feeds** — every field traces back to the source that owns it (full provenance in [`docs/SOURCES.md`](docs/SOURCES.md)).
+ZeroHack aggregates from **10 independent, authoritative feeds** — every field traces back to the source that owns it (full provenance in [`docs/SOURCES.md`](docs/SOURCES.md)). 💚 No proprietary lock-in, no black box — what you see is exactly what the source published.
 
 ### Core scoring feeds
 
@@ -149,9 +162,9 @@ Need this data as a **REST API** with pagination, filtering and real-time webhoo
 | `GET /api/v2/cves/:cveId/iocs` · `/exploits` · `/mitre` | Threat intel per CVE |
 | `POST /webhooks` | Real-time alerts → SIEM, Slack, Discord, Telegram |
 
-- Explore the interactive docs → **[zerohack.org/docs](https://zerohack.org/docs)**
-- Live researcher CVE workspace → **[researcher.zerohack.org/cve-intel](https://researcher.zerohack.org/cve-intel)**
-- Public CVE database → **[zerohack.org/cves](https://zerohack.org/cves)**
+- Explore the interactive docs → **[zerohack.org/docs](https://zerohack.org/docs)** 📚
+- Live researcher CVE workspace → **[researcher.zerohack.org/cve-intel](https://researcher.zerohack.org/cve-intel)** 🚀
+- Public CVE database → **[zerohack.org/cves](https://zerohack.org/cves)** 🔎
 
 ## 🚀 Quick start
 
@@ -164,6 +177,8 @@ git clone --depth 1 https://github.com/ZeroHackOrg/cves.git
 ls cves/2026/
 ```
 
+⚡ **Get answers before attackers get options.** 3 seconds from repo → JSON → fix list.
+
 ## 🌍 Community & collaboration
 
 ZeroHack intelligence is built **with the community, for the community.** Found a missing IOC, a new PoC, or a correction?
@@ -172,6 +187,7 @@ ZeroHack intelligence is built **with the community, for the community.** Found 
 - 🤝 **Know something we don't?** Send a pull request editing the CVE JSON directly.
 - ✅ **Want visibility?** Accepted corrections are credited and flow back into the ZeroHack pipeline (and the next sync).
 - 📣 **Discuss & connect** — build in public with ZeroHack: open source hubs on [zerohack.org](https://zerohack.org), and suggest new data sources via issues in this repo.
+- 💝 **Why contribute?** Because a safer internet is a **shared** job. Every correction you send gets verified, credited, and pushes the whole planet one step ahead of the attackers.
 
 [![Good first issue](https://img.shields.io/badge/Contribute-Good_First_Issues-22c55e?style=for-the-badge)](https://github.com/ZeroHackOrg/cves/issues)
 [![Code of conduct](https://img.shields.io/badge/Code_of_Conduct-Read_More-334155?style=for-the-badge)](docs/CONTRIBUTING.md)
@@ -198,9 +214,16 @@ Commits are machine-readable: `sync: YYYY-MM-DD HH:MM · N updated`.
 
 <div align="center">
 
+## 💝 Made with love by ZeroHack 🛡️
+
+**Building a safe tomorrow — together.** 🌍
+
+*Free forever. Open by default. Human-first, always.*
+
 **Built by [ZeroHack Security](https://zerohack.org)** · Enterprise-grade CVE intelligence, open to everyone.
 
 [![ZeroHackOrg](https://img.shields.io/badge/ZeroHackOrg-More_Projects-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZeroHackOrg)
+[![Star](https://img.shields.io/badge/Star_Us-⭐-facc15?style=for-the-badge)](https://github.com/ZeroHackOrg/cves)
 
 </div>
 
