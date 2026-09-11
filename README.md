@@ -2,7 +2,7 @@
 
 Open-source CVE vulnerability intelligence from [ZeroHack](https://zerohack.org) — AI-enriched, multi-source data ready for security teams, SOCs, researchers, and automation. Auto-synced from the ZeroHack CVE pipeline (10+ sources + AI enrichment).
 
-![data files](https://img.shields.io/badge/data-JSON-blue)
+![shields: license](https://img.shields.io/badge/license-Proprietary-lightgrey) ![data files](https://img.shields.io/badge/data-JSON-blue)
 
 ---
 
@@ -90,6 +90,7 @@ Please read [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) first.
 ## Schema & quality
 
 - Every file validates against [docs/SCHEMA.md](docs/SCHEMA.md).
+- Full field-by-field reference (the complete CVE object) is published live at **ZeroHack API docs**: `https://zerohack.org/docs/#cve-object` (canonical schema — mirrors `types/index.ts`).
 - Data is non-destructive: fields present in the source pipeline are never dropped.
 - `updatedAt` reflects the last pipeline write; missing fields are omitted, never stubbed.
 
@@ -100,4 +101,4 @@ Please read [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) first.
 
 ## License
 
-© ZeroHack Security. See [LICENSE](LICENSE).
+Data is provided for security research and defensive use. © ZeroHack Security. All rights reserved.
