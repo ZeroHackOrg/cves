@@ -1,21 +1,47 @@
-MIT License
+ZEROHACK PROPRIETARY LICENSE
 
-Copyright (c) 2026 Zerohack
+Copyright (c) 2026 ZeroHack. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository and all files, datasets, data (including, without limitation,
+the CVE intelligence records, enriched metadata, curated feeds, scripts,
+schemas, and documentation) contained herein ("the Material") are the
+proprietary property of ZeroHack and are protected by copyright law.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+LICENSE GRANT
+------------------------------------------------------------
+ZeroHack grants you a limited, non-exclusive, non-transferable,
+revocable license to view, download, and reference the Material for
+informational and evaluation purposes only.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You MAY:
+  - Access the CVE intelligence data published in this repository for your
+    own internal research and evaluation.
+  - Link to the canonical reference at https://zerohack.org/docs.
+
+You MAY NOT:
+  - Redistribute, republish, sublicense, sell, rent, lease, or otherwise
+    transfer the Material, in whole or in part, in any form.
+  - Copy, mirror, or host the Material on another public or private service
+    without prior written permission from ZeroHack.
+  - Use the Material to build a competing data product or feed, directly
+    or indirectly.
+  - Remove, obscure, or alter any proprietary notices contained in the
+    Material.
+
+DATA NOTICE
+------------------------------------------------------------
+CVE IDs, descriptions, and affected-product data originate from the public
+CVE/NVD feeds and remain subject to their respective licenses. ZeroHack's
+added enrichment (intelligence scoring, summaries, exploited/weaponized
+signals, PoC links, curated commentary) constitutes proprietary Material
+governed by this license.
+
+NO WARRANTY
+------------------------------------------------------------
+The Material is provided "AS IS", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and noninfringement. In no event shall
+ZeroHack be liable for any claim, damages, or other liability arising from
+or in connection with the Material.
+
+For licensing inquiries, contact: legal@zerohack.org

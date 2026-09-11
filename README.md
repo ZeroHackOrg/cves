@@ -206,4 +206,4 @@ Commits are machine-readable: `sync: YYYY-MM-DD HH:MM · N updated`.
 
 ## License
 
-© ZeroHack Security. See [LICENSE](LICENSE).
+© ZeroHack Security. **Proprietary** — enriched data and derivatives may not be republished, mirrored, or resold without written permission. CVE IDs, descriptions, and affected-product data remain subject to the original CVE/NVD licenses. See [LICENSE](LICENSE).
