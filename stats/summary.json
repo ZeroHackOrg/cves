@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-09-12T10:39:35.521Z",
+  "since": "2026-08-03T10:38:35.691Z",
+  "incremental": true,
+  "processedHot": 0,
+  "processedArchive": 0,
+  "filesWritten": 0,
+  "filesSkippedUnchanged": 0,
+  "bySeverity": {
+    "hot": {},
+    "archive": {},
+    "merged": {}
+  },
+  "byTier": {
+    "hot": 0,
+    "archive": 0
+  }
+}
