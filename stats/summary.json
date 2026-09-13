@@ -1,18 +1,40 @@
 {
-  "updatedAt": "2026-09-12T10:39:35.521Z",
-  "since": "2026-08-03T10:38:35.691Z",
-  "incremental": true,
-  "processedHot": 0,
+  "updatedAt": "2026-09-13T07:15:38.597Z",
+  "since": "2026-09-12T10:40:07.864Z",
+  "incremental": false,
+  "seed": {
+    "active": true,
+    "completed": false
+  },
+  "processedHot": 6000,
   "processedArchive": 0,
-  "filesWritten": 0,
+  "filesWritten": 4431,
   "filesSkippedUnchanged": 0,
   "bySeverity": {
-    "hot": {},
+    "hot": {
+      "Critical": 3137,
+      "CRITICAL": 259,
+      "LOW": 432,
+      "MEDIUM": 1247,
+      "HIGH": 922,
+      "critical": 1,
+      "Unknown": 1,
+      "NONE": 1
+    },
     "archive": {},
-    "merged": {}
+    "merged": {
+      "Critical": 3137,
+      "CRITICAL": 259,
+      "LOW": 432,
+      "MEDIUM": 1247,
+      "HIGH": 922,
+      "critical": 1,
+      "Unknown": 1,
+      "NONE": 1
+    }
   },
   "byTier": {
-    "hot": 0,
+    "hot": 6000,
     "archive": 0
   }
 }
