@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T08:28:28.221Z",
-  "count": 13,
+  "updated": "2026-09-14T07:17:34.059Z",
+  "count": 45,
   "data": [
     {
       "patchLink": "",
@@ -1463,6 +1463,586 @@
         ">= 4.9",
         "< 7.0.10"
       ]
+    },
+    {
+      "patchLink": "",
+      "trending": false,
+      "featured": false,
+      "malwareFamilies": [],
+      "references": [
+        "https://github.com/presenton/presenton/commit/a1103dcef3c761cc8bab44e2862c81a49969abd7",
+        "https://github.com/presenton/presenton/issues/678",
+        "https://github.com/presenton/presenton/pull/679",
+        "https://github.com/presenton/presenton/releases/tag/electron-v0.8.8-beta",
+        "https://www.vulncheck.com/advisories/presenton-beta-authentication-bypass-of-session-auth-via-unprotected-mcp-endpoint"
+      ],
+      "availabilityImpact": "LOW",
+      "iocRegistry": [],
+      "ogTitle": "",
+      "hasExploit": false,
+      "source": "NVD",
+      "githubPoC": "",
+      "bookmarks": 0,
+      "shareCount": 0,
+      "mitreAttack": [],
+      "campaigns": [],
+      "cvssScore": 6.5,
+      "solution": "",
+      "iocIps": [],
+      "pocAvailable": false,
+      "iocEmails": [],
+      "slug": "cve-2026-58446",
+      "sigmaRules": [],
+      "seoDescription": "",
+      "cveId": "CVE-2026-58446",
+      "detectionMethods": [],
+      "affectedProducts": [],
+      "fixedVersions": [],
+      "priority": "P2",
+      "suricataRules": [],
+      "metasploitModule": "",
+      "tags": [
+        "recent",
+        "medium"
+      ],
+      "vendorAdvisories": [],
+      "confidentialityImpact": "NONE",
+      "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "exploitDb": "",
+      "iocMd5": [],
+      "isZeroDay": false,
+      "cvss": 6.5,
+      "aptGroups": [],
+      "cisaKev": false,
+      "exploitedInWild": false,
+      "advisories": [],
+      "cisaLinks": [],
+      "iocSha256": [],
+      "patchAvailable": false,
+      "description": "Presenton before 0.8.8-beta bundles an MCP server that, on server/Docker deployments configured with session authentication (AUTH_USERNAME/AUTH_PASSWORD), is reachable unauthenticated at /mcp because the nginx front-end does not apply the auth_request gate to that path and the MCP server auto-mints a valid internal session token for the configured user. A remote unauthenticated attacker can invoke MCP tools such as generate_presentation, performing authenticated application actions, consuming the operators configured LLM API keys, and creating presentations in the operators instance. The Electron desktop build is not affected (MCP disabled).",
+      "iocSsdeep": [],
+      "privilegesRequired": "NONE",
+      "seoTitle": "",
+      "title": "CVE-2026-58446 — Presenton before 0.8.8-beta bundles an MCP server that, on server/Docker deployments configured with",
+      "userInteraction": "NONE",
+      "lastReviewed": "",
+      "workaround": "",
+      "iocSha1": [],
+      "weakness": "CWE-306",
+      "exploitStatus": "None",
+      "epssPercentile": 0.35805,
+      "downloads": 0,
+      "vendor": "",
+      "attackComplexity": "LOW",
+      "scope": "UNCHANGED",
+      "attackVector": "NETWORK",
+      "nvdLink": "https://nvd.nist.gov/vuln/detail/CVE-2026-58446",
+      "integrityImpact": "LOW",
+      "iocFilePaths": [],
+      "views": 0,
+      "ransomwareObserved": false,
+      "severity": "MEDIUM",
+      "summary": "",
+      "product": "",
+      "epss": 0.00437,
+      "iocJa3": [],
+      "verified": true,
+      "iocMutexes": [],
+      "mitigationAvailable": false,
+      "ogDescription": "",
+      "iocDomains": [],
+      "cwe": "CWE-306",
+      "yaraRules": [],
+      "iocUrls": [],
+      "weaponized": false,
+      "analyst": "NVD Auto-Sync",
+      "exploitAvailable": false,
+      "iocCidr": [],
+      "affectedVersions": [],
+      "publishedAt": {
+        "_seconds": 1782872217,
+        "_nanoseconds": 963000000
+      },
+      "lastModifiedDate": {
+        "_seconds": 1784081849,
+        "_nanoseconds": 780000000
+      },
+      "publishedDate": {
+        "_seconds": 1782872217,
+        "_nanoseconds": 963000000
+      }
+    },
+    {
+      "patchLink": "",
+      "trending": false,
+      "featured": false,
+      "malwareFamilies": [],
+      "references": [
+        "https://marc.info/?l=openssh-unix-dev&m=178333966933090&w=2",
+        "https://www.openssh.org/releasenotes.html#10.4p1",
+        "https://www.openwall.com/lists/oss-security/2026/07/06/5"
+      ],
+      "availabilityImpact": "NONE",
+      "iocRegistry": [],
+      "ogTitle": "",
+      "hasExploit": false,
+      "source": "NVD",
+      "githubPoC": "",
+      "bookmarks": 0,
+      "shareCount": 0,
+      "mitreAttack": [],
+      "campaigns": [],
+      "cvssScore": 4.2,
+      "solution": "",
+      "iocIps": [],
+      "pocAvailable": false,
+      "iocEmails": [],
+      "slug": "cve-2026-59997",
+      "sigmaRules": [],
+      "seoDescription": "",
+      "cveId": "CVE-2026-59997",
+      "detectionMethods": [],
+      "affectedProducts": [
+        "openbsd/openssh"
+      ],
+      "fixedVersions": [],
+      "priority": "P2",
+      "suricataRules": [],
+      "metasploitModule": "",
+      "tags": [
+        "recent",
+        "medium",
+        "openbsd",
+        "openssh"
+      ],
+      "vendorAdvisories": [],
+      "confidentialityImpact": "LOW",
+      "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "exploitDb": "",
+      "iocMd5": [],
+      "isZeroDay": false,
+      "cvss": 4.2,
+      "aptGroups": [],
+      "cisaKev": false,
+      "exploitedInWild": false,
+      "advisories": [],
+      "cisaLinks": [],
+      "iocSha256": [],
+      "patchAvailable": false,
+      "description": "internal-sftp in sshd in OpenSSH before 10.4 recognizes only the first 9 command-line arguments, which can be important if a later command-line argument would have helped to ensure the intended security properties of an SFTP connection.",
+      "iocSsdeep": [],
+      "privilegesRequired": "NONE",
+      "seoTitle": "",
+      "title": "CVE-2026-59997 — internal-sftp in sshd in OpenSSH before 10.4 recognizes only the first 9 command-line arguments, whi",
+      "userInteraction": "REQUIRED",
+      "lastReviewed": "",
+      "workaround": "",
+      "iocSha1": [],
+      "weakness": "CWE-1284",
+      "exploitStatus": "None",
+      "downloads": 0,
+      "vendor": "openbsd",
+      "attackComplexity": "HIGH",
+      "scope": "UNCHANGED",
+      "attackVector": "NETWORK",
+      "nvdLink": "https://nvd.nist.gov/vuln/detail/CVE-2026-59997",
+      "integrityImpact": "LOW",
+      "iocFilePaths": [],
+      "views": 0,
+      "ransomwareObserved": false,
+      "severity": "MEDIUM",
+      "summary": "",
+      "product": "openssh",
+      "iocJa3": [],
+      "verified": true,
+      "iocMutexes": [],
+      "mitigationAvailable": false,
+      "ogDescription": "",
+      "iocDomains": [],
+      "cwe": "CWE-1284",
+      "yaraRules": [],
+      "iocUrls": [],
+      "weaponized": false,
+      "analyst": "NVD Auto-Sync",
+      "exploitAvailable": false,
+      "iocCidr": [],
+      "affectedVersions": [
+        "< 10.4"
+      ],
+      "publishedAt": {
+        "_seconds": 1783487788,
+        "_nanoseconds": 727000000
+      },
+      "lastModifiedDate": {
+        "_seconds": 1783631509,
+        "_nanoseconds": 987000000
+      },
+      "publishedDate": {
+        "_seconds": 1783487788,
+        "_nanoseconds": 727000000
+      },
+      "epssPercentile": 0.07156,
+      "epss": 0.00175
+    },
+    {
+      "epss": 0.00214,
+      "epssPercentile": 0.11647,
+      "cveId": "CVE-2026-9970",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.21,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00159,
+      "epssPercentile": 0.05377,
+      "cveId": "CVE-2026-9971",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.16,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00226,
+      "epssPercentile": 0.13297,
+      "cveId": "CVE-2026-9972",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.23,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00311,
+      "epssPercentile": 0.23672,
+      "cveId": "CVE-2026-9973",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.31,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00207,
+      "epssPercentile": 0.10916,
+      "cveId": "CVE-2026-9974",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.21,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00214,
+      "epssPercentile": 0.11647,
+      "cveId": "CVE-2026-9975",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.21,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00296,
+      "epssPercentile": 0.21984,
+      "cveId": "CVE-2026-9976",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.3,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00184,
+      "epssPercentile": 0.0812,
+      "cveId": "CVE-2026-9977",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.18,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00234,
+      "epssPercentile": 0.14246,
+      "cveId": "CVE-2026-9978",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.23,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00128,
+      "epssPercentile": 0.02751,
+      "cveId": "CVE-2026-9979",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.13,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00124,
+      "epssPercentile": 0.02453,
+      "cveId": "CVE-2026-9980",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.12,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00191,
+      "epssPercentile": 0.08795,
+      "cveId": "CVE-2026-9981",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.19,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00184,
+      "epssPercentile": 0.0812,
+      "cveId": "CVE-2026-9982",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.18,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00255,
+      "epssPercentile": 0.17034,
+      "cveId": "CVE-2026-9983",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.26,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00234,
+      "epssPercentile": 0.14246,
+      "cveId": "CVE-2026-9984",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.23,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00182,
+      "epssPercentile": 0.07892,
+      "cveId": "CVE-2026-9985",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.18,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00145,
+      "epssPercentile": 0.04055,
+      "cveId": "CVE-2026-9986",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.14,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00099,
+      "epssPercentile": 0.00919,
+      "cveId": "CVE-2026-9987",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.1,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00173,
+      "epssPercentile": 0.06856,
+      "cveId": "CVE-2026-9988",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.17,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00107,
+      "epssPercentile": 0.01261,
+      "cveId": "CVE-2026-9989",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.11,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00173,
+      "epssPercentile": 0.06856,
+      "cveId": "CVE-2026-9990",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.17,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00141,
+      "epssPercentile": 0.03761,
+      "cveId": "CVE-2026-9991",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.14,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00234,
+      "epssPercentile": 0.14246,
+      "cveId": "CVE-2026-9992",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.23,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00164,
+      "epssPercentile": 0.0593,
+      "cveId": "CVE-2026-9993",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.16,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00182,
+      "epssPercentile": 0.07843,
+      "cveId": "CVE-2026-9994",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.18,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00296,
+      "epssPercentile": 0.21987,
+      "cveId": "CVE-2026-9995",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.3,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00191,
+      "epssPercentile": 0.08795,
+      "cveId": "CVE-2026-9996",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.19,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00178,
+      "epssPercentile": 0.07446,
+      "cveId": "CVE-2026-9997",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.18,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00173,
+      "epssPercentile": 0.06857,
+      "cveId": "CVE-2026-9998",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.17,
+      "source": "FIRST EPSS"
+    },
+    {
+      "epss": 0.00249,
+      "epssPercentile": 0.16256,
+      "cveId": "CVE-2026-9999",
+      "_source": "epss",
+      "epssDate": {
+        "_seconds": 1789084800,
+        "_nanoseconds": 0
+      },
+      "riskScore": 0.25,
+      "source": "FIRST EPSS"
     }
   ]
 }
