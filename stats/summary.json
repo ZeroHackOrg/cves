@@ -1,26 +1,28 @@
 {
-  "updatedAt": "2026-10-24T07:16:08.605Z",
-  "since": "2026-10-23T08:26:43.028Z",
+  "updatedAt": "2026-10-24T07:56:59.435Z",
+  "since": "2026-10-24T07:16:11.385Z",
   "incremental": true,
   "seed": {
     "active": false,
     "completed": false
   },
-  "processedHot": 2,
+  "processedHot": 2000,
   "processedArchive": 0,
-  "filesWritten": 2,
+  "filesWritten": 2000,
   "filesSkippedUnchanged": 0,
   "bySeverity": {
     "hot": {
-      "Critical": 2
+      "Critical": 1756,
+      "CRITICAL": 244
     },
     "archive": {},
     "merged": {
-      "Critical": 2
+      "Critical": 1756,
+      "CRITICAL": 244
     }
   },
   "byTier": {
-    "hot": 2,
+    "hot": 2000,
     "archive": 0
   }
 }
