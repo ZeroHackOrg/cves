@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T10:19:22.203Z",
-  "since": "2026-11-04T10:27:06.979Z",
+  "updatedAt": "2026-11-06T10:21:28.031Z",
+  "since": "2026-11-05T10:19:26.361Z",
   "incremental": true,
   "seed": {
     "active": false,
@@ -13,14 +13,16 @@
   "bySeverity": {
     "hot": {
       "Critical": 1768,
-      "CRITICAL": 208,
-      "HIGH": 24
+      "HIGH": 120,
+      "CRITICAL": 107,
+      "MEDIUM": 5
     },
     "archive": {},
     "merged": {
       "Critical": 1768,
-      "CRITICAL": 208,
-      "HIGH": 24
+      "HIGH": 120,
+      "CRITICAL": 107,
+      "MEDIUM": 5
     }
   },
   "byTier": {
